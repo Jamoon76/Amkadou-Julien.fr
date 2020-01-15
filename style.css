@@ -1,144 +1,57 @@
 body
 {
-	background:black;
+	background-color: black;
 	font-family:'Courier New','Century','Batnage';
 	color:white;
-	overflow: right;
-    
+	overflow: right;    
 }
 
-body #acceil 
+body #Home 
 {
-  width:900px;
+  width:auto;
   margin: auto;
-  background-image: url("DSC_4354.jpg");
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: center 60%;
+
 }
 
-#actu
+#Mores body
 {
-	width:900px;
+	width:auto;
 	margin: auto;
+	position: center;
 }
 
-#work
+#works
 {
-	width:1000px;
+	width:auto;
 	margin: auto;
+	position: center;	
 }
 
 #cv
 {
-	width:900px;
+	width:auto;
 	margin: auto;
+	position: center;
 }
-
-
 
 #conctat 
 {
-	width:900px;
+	width:auto;
 	margin: auto;
-}
+	position: center;
 
-
-
-
-#bibliographie
-{
-	width:900px;
-	margin: auto;
 }
 
 h1
 {
 	text-align: center;
-}
-
-
-nav header
-{
-	
-	display: inline-block;
-	width:25%;
-	height: 60px;
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
-	float: top-left;
-	text-align:top-left;
-	color: white;
-}
-
- nav ul 
-{
-	list-style-type:none;
-}
- nav li
-{
-	display:inline-block;
-	margin-right:5px;
-}
- nav a
-{
-	color: white;
-	text-decoration: none;
-		display: inline-block;
-		
-}
-nav a:hover 
-{
-color:yellow;
-}
-
-article
-{
-	margin-left: 40px;
-	font-weight:normal;
-	text-transform:uppercase;
-	
-	text-decoration: none;
-	padding: 12px;
-	float: center;
-	display: inline-block;
-
-}
-
- section figure aside a img
-{
-	width:44%;
-    padding: 20px;
-    text-decoration: none;
-	display: inline-block;
-}
-
-section figure aside h3
-{
-	width:30%;
-    padding: 20px;
-    text-decoration: none;
-	display: inline-block;
-}
-
-
-
-figcaption
-{
-	width:44%;
-    padding: 20px;
-    text-decoration: none;
-	display: inline-block;
-	border:1px solid white;
-	
-}
-
-
-p a
-{
- color:white;
- width: 50%;
- padding: 20px;
+	border:0.15px solid white;
+	opacity: 75%;
+	padding: 20px;
+	margin-right: 25%;
+	shape-margin: 100%;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 
 h2 
@@ -146,49 +59,136 @@ h2
 	margin-left: 10px;
 	display: inline-block;
 	font-weight:normal;
-	text-transform:uppercase;
-	border:1px solid white;
+	line-height:1px solid white;
 	float: center;
 	padding: 12px;
+	background-color: black;
+
 }
 
- aside
+h3
 {
-    margin-left:center;
-	display: inline-block;
-	font-weight:normal;
-	text-transform:uppercase;
-	float: center;
-	padding: 12px;
+	background-color: black;
+	opacity: 75%;
+	padding: 20px;
+	margin-right: 75%;
 }
+
  h4
 {
- height:50%;
- width:30%;	
- border:1px solid white;
+ height:auto;
+ width:auto;
 }
 
-aside h3
-{
 
-	width:50%;			
+nav header
+{
+	
+	display: inline-table;
+	width:50%;
+	height: 60px;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+	float: top-left;
+	text-align:top-left;
+	color: white;
+
+
+}
+
+ nav ul 
+{
+	list-style-type:none;
+	position: center-auto;
+	border:0.15px solid white;
+	background-color: black;
+	opacity: 75%;
+
+}
+ nav li
+{
+	display:inline-block;
+	position: center-auto;
+}
+ nav a
+{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+		
+}
+nav a:hover 
+{
+color:yellow;
+}
+
+ article 
+{
 	font-weight:normal;
 	text-transform:uppercase;
-	border:1px solid white;
+	text-decoration: none;
 	padding: 12px;
+	float: center;
+	margin-top: 10px;
+
 }
+
+ section figure aside a img
+{
+    padding: 20px;
+	display: inline-block;
+}
+
+section  figure a img  p
+{
+	width:auto;
+    padding: 20px;
+    text-decoration: none;
+	display: inline-block;	
+
+}
+
+figcaption 
+{
+	width:35%;
+    padding: 20px;   
+	display: inline-block;
+	margin-bottom: 10px ;
+	background-color: black;
+	opacity: 75%;
+
+}
+
+#conctact figcaption 
+{
+	width:35%;
+    padding: 20px;   
+	display: inline-block;
+	margin-bottom: 10px ;
+}
+
+
+p a
+{
+ color:white;
+}
+
+
 
 div
 {
 	font-weight:normal;
-	border:1px solid white;
 	color: white;
 }
 
 
-img
+a img
 {
- display: inline;
+    display: inline-block-table;
+    width:35%;
+	margin-left:1%; 
+    padding: 20px; 
+
 }
 
 
@@ -199,4 +199,3 @@ footer{
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
 }
-
