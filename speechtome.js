@@ -1,0 +1,8 @@
+var speech = new p5.Speech();
+
+    function setup(){
+      
+      speech.speak('Claude Bernard,1865.... lhomme devient un contremaître de la création, un inventeur de phénomènes; et on ne saurait, sous ce rapport, assigner de limites à la puissance qu il peut acquérir sur la nature, par les progrés futurs des sciences expérimentales............     Peter-Stoterdjck philosophe allemand "anthropotechnique" Pour moi, le cyborg effraie surtout car il accompagne un dessaisissement de soi. on croit se rendre autonome en confiant aux machines le soin de gérer ce qui nous limiterait(paralysie, handicap, cécité) et lon découvre vite que cyborgisé, on est habité dune force autonome dont on ne serait plus se passer.....     //////Sayart Benjamin "de lidot savent à la machne intélligente" 2018. Il y a toute la capacité dempathie, la notion de volonté, le rapport à un corps propre, et pour linstant on ne sait pas transcrire tout cela en rapport mathématique......... Yanne le Cun directeur du bureaux Facebook en science-informatique et industriel " sommet sur lintelligence artificielle" 2018.....//// il néxiste pas encore de machine qui possède un sens commun, même comparable à celui dun chat.............       Julia Luc, informaticien et écrivain, "lintéllingence artificielle néxiste pas" 2019.//// lintelligence est forcement humaine, elle ne sapplique ni aux machines ni aux robots, même les plus perfèctionnés et avancés crée par lhommes.')
+      
+  } 
+     
