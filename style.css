@@ -11,6 +11,7 @@ body #Home
   width:auto;
   margin: auto;
 
+
 }
 
 #Mores body
@@ -53,7 +54,6 @@ h1
 	shape-margin: 100%;
 	margin-right: 25%;
 	margin-left: 25%;
-	font-size:5vw;
 }
 
 h2 
@@ -65,6 +65,8 @@ h2
 	float: center;
 	padding: 12px;
 	background-color: black;
+		font-size:2vw;
+
 
 }
 
@@ -73,7 +75,6 @@ h3
 	color: white;
 	background-color: black;
 	opacity: 75%;
-	/*font-size: 10vw;*/ 
 	padding: auto;
 	min-width:1vw;
 	max-width: 30vw;
@@ -100,6 +101,7 @@ nav header
 	color: white;
 
 
+
 }
 
  nav ul 
@@ -123,6 +125,8 @@ nav header
 	color: white;
 	text-decoration: none;
 	display: inline-block;
+		    font-size:1.5vw;
+
 		
 }
 nav a:hover 
@@ -190,13 +194,6 @@ p a
  color:white;
 }
 
-div
-{
-	color: white;
-	font-size:2vw;
-}
-
-
 a img
 {
     display: inline-block-table;
@@ -210,6 +207,8 @@ a img
 
 iframe{
     max-width: 100%; 
+	border:0.015px solid black;
+    display: inline-table;	
 }
 
 footer
@@ -219,6 +218,6 @@ footer
 	float: left;
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
-    font-size:2vw;
+	font-size:1.5vw;
 
 }
