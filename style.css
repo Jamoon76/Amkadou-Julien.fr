@@ -192,8 +192,8 @@ p a
 
 div
 {
-	font-weight:normal;
 	color: white;
+	font-size:2vw;
 }
 
 
@@ -209,8 +209,7 @@ a img
 }
 
 iframe{
-    max-width: 100%;
- 
+    max-width: 100%; 
 }
 
 footer
@@ -220,4 +219,6 @@ footer
 	float: left;
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
+    font-size:2vw;
+
 }
