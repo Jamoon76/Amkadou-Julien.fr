@@ -53,6 +53,7 @@ h1
 	shape-margin: 100%;
 	margin-right: 25%;
 	margin-left: 25%;
+	font-size:5vw;
 }
 
 h2 
@@ -74,7 +75,9 @@ h3
 	opacity: 75%;
 	/*font-size: 10vw;*/ 
 	padding: auto;
-	margin-right: 75%;
+	min-width:1vw;
+	max-width: 30vw;
+	text-align:center;
 }
 
  h4
@@ -197,9 +200,11 @@ div
 a img
 {
     display: inline-block-table;
-    width:35%;
+    /*width:35%;*/
 	margin-left:1%; 
     padding: 20px; 
+    max-width: 100%;
+    height:auto; 
 
 }
 
