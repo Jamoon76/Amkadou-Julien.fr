@@ -3,7 +3,8 @@ body
 	background-color: black;
 	font-family:'Courier New','Century','Batnage';
 	color:white;
-	overflow: right;    
+	overflow: right;   
+	font-size: 10vw; 
 }
 
 body #Home 
@@ -72,6 +73,7 @@ h3
 	color: black;
 	background-color: lightgrey;
 	opacity: 75%;
+	font-size: 10vw; 
 	padding: 20px;
 	margin-right: 75%;
 }
@@ -140,12 +142,14 @@ color:yellow;
 {
     padding: 20px;
 	display: inline-block;
+	max-width: 100%;
+	height: auto;
 }
 
 section  figure a img  p
 {
-	width:auto;
-    padding: 20px;
+    max-width: 100%;
+	height: auto;    padding: 20px;
     text-decoration: none;
 	display: inline-block;	
 
